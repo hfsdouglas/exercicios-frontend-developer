@@ -1,0 +1,22 @@
+body {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.introduction ul li {
+  color: rgb(99, 8, 141);
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+.introduction p.introduction__description {
+  color: rgb(99, 8, 141);
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=style.css.map */

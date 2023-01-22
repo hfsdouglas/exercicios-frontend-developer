@@ -1,0 +1,66 @@
+/* SMACSS */
+/* BASE */
+
+button {
+    padding: 5px;
+}
+
+p {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+body {
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* LAYOUT */
+
+.l-header {
+    text-align: center;
+}
+
+/* MÓDULO */
+
+.card {
+    max-width: 350px;
+    padding: 10px;
+}
+
+.image {
+    max-width: 300px;
+}
+
+.description {
+    text-align: center;
+}
+
+.btn-container {
+    margin: 5px 0 5px 20px;
+}
+
+/* ESTADO */
+
+.is-active {
+
+}
+
+/* TEMA */
+
+.theme-light {
+    color: slategray;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid navy;
+}
+
+.theme-success {
+    background-color: greenyellow;
+}
+
+.theme-fail {
+    background-color: lightcoral; 
+}

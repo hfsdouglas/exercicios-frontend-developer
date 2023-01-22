@@ -1,0 +1,25 @@
+@use 'base'
+
+header 
+    h1
+        text-align: center
+
+$color-purple: rgba(99, 8, 141)
+$font-title: Helvetica, sans-serif
+
+=formatText($color, $font, $size)
+    color: $color
+    font-family: $font
+    font-size: $size
+
+%purple-font
+    +formatText($color-purple, $font-title, calc(200px / 200px) * 100%)
+
+.introduction
+    p.introduction__description
+        +formatText($color-purple, $font-title, 1.2em)
+
+    ul 
+        li 
+            @extend %purple-font
+
